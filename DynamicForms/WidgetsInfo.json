@@ -1,0 +1,57 @@
+ [
+  {
+      "widget" : "EditText",
+      "input_type" : "textCapWords",
+      "hint" : "First Name",
+      "validation_rules" : {
+          "required" : true,
+          "min_length" : 3,
+          "max_length" : 20,
+          "error_message" : "Please enter a valid first name"
+        }
+  },
+  {
+      "widget" : "EditText",
+      "input_type" : "textCapWords",
+      "hint" : "Middle Name",
+      "validation_rules" : {
+          "required" : false,
+          "min_length" : 1,
+          "max_length" : 20,
+          "error_message" : "Please enter a valid middle name"
+      }
+  },
+  {
+  "widget" : "EditText",
+  "input_type" : "textCapWords",
+  "hint" : "Last Name",
+  "validation_rules" : {
+  "required" : true,
+  "min_length" : 3,
+  "max_length" : 20,
+  "error_message" : "Please enter a valid last name"
+  }
+  },
+  {
+  "widget" : "EditText",
+  "input_type" : "textEmailAddress",
+  "hint" : "Email Address",
+  "validation_rules" : {
+  "required" : false,
+  "check_validity" : true,
+  "error_message" : "Please enter a valid email address"
+  }
+  },
+  {
+  "widget" : "Button",
+  "text" : "Create Account",
+  "action" : "submit"
+  },
+  {
+  "widget" : "Button",
+  "text" : "Clear Form",
+  "action" : "reset"
+  }
+  ]
+
+
